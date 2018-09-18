@@ -587,7 +587,7 @@ var routes = [
     { path: 'modals', component: _views_modals_modals_component__WEBPACK_IMPORTED_MODULE_1__["ModalsComponent"] },
     { path: '**', component: _views_errors_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_5__["NotFoundComponent"] },
 ];
-var AppRoutes = _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forRoot(routes);
+var AppRoutes = _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forRoot(routes, { useHash: true });
 
 
 /***/ }),
